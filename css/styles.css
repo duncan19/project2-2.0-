@@ -13,12 +13,28 @@ body{
 #results {
   display: none;
   font-family: sans-serif;
+  background-color: grey;
 }
 #results2 {
   display: none;
   font-family: sans-serif;
+  background-color: grey;
 }
 #results3 {
   display: none;
   font-family: sans-serif;
+  background-color: grey;
 }
+#redo-btn{
+  background-color: red;
+animation-name: animationbtn;
+animation-duration: 10s;
+ animation-iteration-count: infinite;
+}
+@keyframes animationbtn {
+          0%   {background-color: red;}
+          25%  {background-color: yellow;}
+          50%  {background-color: blue;}
+          75% {background-color: green;}
+          100% {background-color: red;}
+        }
