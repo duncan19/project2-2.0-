@@ -10,3 +10,12 @@ body{
   background: radial-gradient( lightblue, orange, purple);
   background-attachment: fixed;
 }
+#results {
+  display: none;
+}
+#results2 {
+  display: none;
+}
+#results3 {
+  display: none;
+}
