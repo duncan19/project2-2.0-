@@ -6,7 +6,7 @@ $(document).ready(function() {
     var eye = parseInt($("#eyecolor").val());
     var day =  parseInt($("#age").val())
 
-    $(".thequestions").hide();
+    $(".the-questions").hide();
     if (music + day + pet + eyecolor + age === 10) {
       $("#results").show();
     } else if (music + day + pet + eyecolor + age  > 10){
