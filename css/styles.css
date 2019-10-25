@@ -6,3 +6,7 @@
 .titlebox{
   background-color: lightblue;
 }
+body{
+  background: radial-gradient( lightblue, orange, purple);
+  background-attachment: fixed;
+}
