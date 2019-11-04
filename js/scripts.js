@@ -1,10 +1,10 @@
 $(document).ready(function() {
   $(".questions").submit(function(event) {
-    var area =  parseInt($("#music").val());
-    var color =  parseInt($("#pet").val());
-    var pet =  parseInt($("#day").val());
+    var music =  parseInt($("#music").val());
+    var pet =  parseInt($("#pet").val());
+    var day =  parseInt($("#day").val());
     var eye = parseInt($("#eyecolor").val());
-    var day =  parseInt($("#age").val())
+    var age =  parseInt($("#age").val())
 
     $(".the-questions").hide();
     if (music + day + pet + eyecolor + age === 10) {
@@ -14,7 +14,6 @@ $(document).ready(function() {
     } else {
       $("#results3").show();
     }
-
     event.preventDefault();
   });
 });
